@@ -63,7 +63,6 @@ The application window will open, and your webcam feed will be displayed.
 This program is specifically designed to be easily expanded. Here's how you can take it further:
 
 	•	Advanced Gesture Library: You can add more complex gestures and associate them with specific actions. The GestureRecognizer class is built for this purpose; you only need to define the new finger patterns. ✍️
- 
 	•	Machine Learning Integration: Instead of relying on hardcoded rules for finger patterns, you could train a custom machine learning model to recognise gestures. This would make the system more robust and adaptable to variations in hand shape and lighting. 🤖
 	•	User Profiles: Implement a feature to save custom gestures for different users. This would allow a user to train the system to recognise their unique hand movements. 👤
 	•	Kalman Filters: For even smoother tracking and less jitter, you could replace the current deque smoothing method with a Kalman filter. This advanced algorithm predicts the future position of a landmark based on its past movement, making it ideal for real-time tracking. Kalman Filter
